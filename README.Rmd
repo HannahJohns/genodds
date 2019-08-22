@@ -18,7 +18,8 @@ knitr::opts_chunk$set(
 
 
 
-#The ``genodds'' package ![Image Title](sticker.png){width=40%}
+
+#The ``genodds'' package <img src="sticker.png" alt="genodds logo" style="float:right;height:232.25px" align="right" height="232.25">
 
 
 ##Overview

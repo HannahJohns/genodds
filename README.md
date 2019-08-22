@@ -2,8 +2,8 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
 <!-- badges: end -->
-The \`\`genodds'' package <img src="sticker.png" alt="Image Title" style="width:40.0%" />
-=========================================================================================
+The \`\`genodds'' package <img src="sticker.png" alt="genodds logo" style="float:right;height:232.25px" align="right" height="232.25">
+======================================================================================================================================
 
 Overview
 --------
