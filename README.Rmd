@@ -17,9 +17,13 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 
-# genodds
 
-genodds calculates Agresti's generalized odds ratios for a two-sample dataset. This measure calculates the odds that, were a pair of observation were to be randomly selected from two groups, the observation in one group would have a higher score than those in the other group. This measure tests the hypothesis that this odds ratio is different than 1 (no difference between groups). This measure can also be reported as Number Needed to Treat, a common outcome measure used in health economics.
+#The ``genodds'' package ![Image Title](sticker.tif){width=40%}
+
+
+##Overview
+
+genodds implements Agresti's [generalized odds ratios](https://www.jstor.org/stable/2530495) for a two-sample dataset. This measure calculates the odds that, if a pair of observation were to be randomly selected from two groups, the observation in one group would have a higher score than those in the other group. The package also provides hypothesis testing for if this odds ratio is different to 1 (no difference between groups), as well as power/sample size estimation capabilities trial planning using this test. This measure can also be reported as [Number Needed to Treat](https://doi.org/10.1111/ijs.12364), a common outcome measure used in health economics.
 
 ## Installation
 
