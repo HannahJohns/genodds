@@ -4,12 +4,14 @@
 \name{alteplase}
 \alias{alteplase}
 \title{Effect of time to treatment on efficacy of rt-PA in treating acute stroke}
-\format{A data frame with 3669 rows and 3 variables:
+\format{
+A data frame with 3669 rows and 3 variables:
 \describe{
   \item{time}{Time interval (minutes) between stroke onset and treatment}
   \item{treat}{Type of treatment received}
   \item{mRS}{Outcome at 3 months measured using the modified Rankin Scale}
-}}
+}
+}
 \usage{
 alteplase
 }

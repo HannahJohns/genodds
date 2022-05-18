@@ -4,8 +4,16 @@
 \alias{genodds.power}
 \title{Power Calculations for Generalized Odds Ratios}
 \usage{
-genodds.power(p0, p1, N = NULL, power = NULL, alpha = 0.05,
-  ties = "split", w = c(0.5, 0.5), direction = "two.sided")
+genodds.power(
+  p0,
+  p1,
+  N = NULL,
+  power = NULL,
+  alpha = 0.05,
+  ties = "split",
+  w = c(0.5, 0.5),
+  direction = "two.sided"
+)
 }
 \arguments{
 \item{p0}{A numeric vector contianing the probabilities in control group.}

@@ -1,7 +1,7 @@
 Package: genodds
 Type: Package
 Title: Generalised Odds Ratios
-Version: 1.0.0.9000
+Version: 1.1.1.9000
 Date: 2019-08-14
 Encoding: UTF-8
 Authors@R: person("Hannah","Johns", role=c("aut","cre"),email="htjohns@gmail.com",comment=c(ORCID="0000-0003-2135-0504"))
@@ -22,6 +22,6 @@ Imports:
     Rcpp (>= 0.12.3)
 LinkingTo:
     Rcpp
-RoxygenNote: 6.1.1
+RoxygenNote: 7.2.0
 Suggests: 
     testthat (>= 2.1.0)
