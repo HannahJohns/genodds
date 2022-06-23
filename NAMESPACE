@@ -1,7 +1,7 @@
 useDynLib("genodds")
 exportPattern("[gG]enodds")
 importFrom(Rcpp, evalCpp)
-importFrom("stats", "pchisq", "pnorm", "qchisq", "qnorm", "uniroot")
+importFrom("stats", "pchisq", "pnorm", "qchisq", "qnorm", "uniroot","runif")
 useDynLib(genodds)
 S3method(print, Genodds)
 
