@@ -1,6 +1,8 @@
-# genodds 1.1.1.9000
+# genodds 1.1.2
 
 Added useful contributions by Howard on a related approach. Method now also offers a permutation test equivalent method, plus an interpretable statement of effect as proposed by Howard.
+
+Patched a bug when switching between dropping and splitting ties. Previously, when assuming null standard error and dropping ties confidence intervals and p-values would erroneously return NA values.
 
 # genodds 1.1
 

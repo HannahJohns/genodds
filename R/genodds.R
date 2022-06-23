@@ -324,12 +324,15 @@ genodds <- function(response, group, strata=NULL,alpha=0.05,ties="split",
     Rd=get_Rd(p)
 
     # Redistribute ties
-
-    Rs=Rs+contr_fav*Rt
-    Rd=Rd+contr_fav*Rt
+    if(!is.na(contr_fav))
+    {
+      Rs=Rs+(1-contr_fav)*Rt
+      Rd=Rd+contr_fav*Rt
+    }
 
     Pc=sum(p*Rs)
     Pd=sum(p*Rd)
+
 
     SEnull=2/Pd*(sum(p*(1*Rd-Rs)^2)/N)^0.5
     SElnnull=SEnull/1
