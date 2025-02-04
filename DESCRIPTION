@@ -4,7 +4,7 @@ Title: Generalised Odds Ratios
 Version: 1.1.2
 Date: 2022-06-23
 Encoding: UTF-8
-Authors@R: person("Hannah","Johns", role=c("aut","cre"),email="htjohns@gmail.com",comment=c(ORCID="0000-0003-2135-0504"))
+Authors@R: person("Hannah","Johns", role=c("aut","cre"),email="dr.hannah.johns@gmail.com",comment=c(ORCID="0000-0003-2135-0504"))
 Maintainer: Hannah Johns <htjohns@gmail.com>
 Description:
   Calculates Agresti's generalized odds ratios.
